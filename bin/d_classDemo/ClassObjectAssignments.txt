@@ -1,0 +1,53 @@
+Create a Circle class (without main method
+which has following instance variables
+radius as double 
+color as String
+
+it has two constructors 
+- one accepts radius, color as parameter, and  
+- one does not accept any parameters
+
+It has the following methods
+- getter and setter for radius(2)
+- getter and setter for color (2)
+- calculate the area (radius*radius*Math.PI)(1) this method
+  returns area in type double
+
+	
+Then you create another class (having main method). CircleDemo
+Inside this class,
+- Create four objects of Circle and 
+- provide different radius and color.
+- Print radius, color and area of all the four circles on console.
+
+
+
+
+
+
+
+
+
+Create a Cylinder class, inherit it from Circle
+having "height" as additional attribute of type double
+two constructors, 
+- one with three parameters, radius,color and height and 
+- other without any parameter
+
+the following behaviours/methods
+- setHeight() and getHeight()
+- Override the getArea() method in Circle to implement area of the Cylinder
+- getVolume() which internally calls getarea method of circle (height * area of circle)
+
+- create another class having main method. 
+Create 3 objects of Cylinder having different 
+values of color, radius and height.
+
+
+
+
+
+
+
+
+
